@@ -71,7 +71,7 @@ int main() {
         pc_ads1220.set_conv_mode_single_shot();       // Mode échantillonnage unique
         //pc_ads1220.internal_reference();              // Référence interne 2.048 V
 
-        const char* address ="tcp://192.168.1.46:1883";
+        const char* address ="tcp://192.168.1.30:1883";
         const char* token ="Huyzo4MPZwf22VT5uwsN";
 
         MQTTClient client;

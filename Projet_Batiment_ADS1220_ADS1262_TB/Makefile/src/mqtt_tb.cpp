@@ -15,7 +15,7 @@ float VFSR = VREF / PGA;
 
 void sendToThingsboard_MQTT(float volt, float temp){
 
-    const char* address = "tcp://192.168.1.46:1883";
+    const char* address = "tcp://192.168.1.30:1883";
     const char* token = "Huyzo4MPZwf22VT5uwsN";
 
     MQTTClient client;
@@ -141,4 +141,5 @@ void handleRPC(Protocentral_ADS1220& adc, const std::string& payload){
     }
            
 }
+
 

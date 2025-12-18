@@ -14,19 +14,25 @@ Connecter le système de mesure à ThingsBoard, déjà déployé dans le cadre d
 Consigner les valeurs dans une base de données et afficher des métriques sur un Dashboard interactif.
 
 🛠️ Matériel
+
 -ADC : ADS1220, ADS1262
+
 -Microcontrôleurs : Raspberry Pi
 
 -Capteurs thermiques : prévus dans la configuration finale, mais remplacés pour le moment par un potentiomètre afin de simuler les variations de tension
 
 💻 Logiciel
+
 Langages : C/C++, 
 
 Bibliothèques : paho.mqtt.c, WiringPi, jsoncpp
 
-Plateforme IoT : ThingsBoard (RPC, télémétrie, Dashboard)
+Plateforme IoT : 
+
+ThingsBoard (RPC, télémétrie, Dashboard)
 
 🔗 Intégration réseau :
+
 Connexion via MQTT à ThingsBoard
 
 Gestion des RPC pour reconfigurer à distance les paramètres des ADC (PGA, Data Rate, etc.)

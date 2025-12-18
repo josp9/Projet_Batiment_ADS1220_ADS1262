@@ -5,7 +5,7 @@ Ce projet est mené dans le cadre des recherches.
 Il s’inscrit dans le projet Campusco et vise à développer un prototype IoT permettant de monitorer en temps réel les performances thermiques des bâtiments.
 
 -Objectifs
-Mesurer de très petites variations de tension (µV voire nV) grâce à des ADC haute précision (ADS1220, ADS1262).
+Mesurer de très petites variations de tension grâce à des ADC haute précision (ADS1220, ADS1262).
 
 Tester différentes configurations d’ADC afin d’atteindre les objectifs de précision définis.
 
